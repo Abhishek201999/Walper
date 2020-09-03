@@ -11,4 +11,8 @@ Wallpaper application build with flutter
     <td><img src="/assets/screenshots/ss4.jpg" </td>
     <td><img src="/assets/screenshots/ss5.jpg" </td>
   </tr>
+  <tr>
+    <td><img src="/assets/screenshots/ss3.jpg" </td>
+    <td><img src="/assets/screenshots/ss4.jpg" </td>
+  </tr
  </table>
