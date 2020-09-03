@@ -57,7 +57,7 @@ class _DisplaySheetState extends State<DisplaySheet> {
                 ],
               ),
               Text(
-                'unspash.com',
+                'unsplash.com',
               ),
             ],
           ),
@@ -65,10 +65,6 @@ class _DisplaySheetState extends State<DisplaySheet> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
-              IconButton(
-                icon: Icon((Icons.favorite_border)),
-                onPressed: () {},
-              ),
               IconButton(
                 icon: Icon((Icons.file_download)),
                 onPressed: () => _save(),

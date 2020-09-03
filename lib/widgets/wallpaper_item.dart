@@ -31,33 +31,6 @@ class _WallpaperItemState extends State<WallpaperItem> {
             fit: BoxFit.cover,
           ),
         ),
-        // footer: ListTile(
-        //   trailing: IconButton(
-        //     padding: EdgeInsets.only(left: 35),
-        //     icon: widget.wallpaper.isFavorite
-        //         ? Icon(
-        //             Icons.favorite,
-        //             color: Colors.red,
-        //           )
-        //         : Icon(
-        //             Icons.favorite_border,
-        //           ),
-        //     onPressed: () async {
-        //       widget.wallpaper.setFavorite();
-        //       if (widget.wallpaper.isFavorite == true) {
-        //         favoriteId.add(widget.wallpaper.id);
-        //         await _save();
-        //         print(widget.wallpaper.isFavorite);
-        //       }
-        //       if (widget.wallpaper.isFavorite == false) {
-        //         await _remove(widget.wallpaper.id);
-        //         print(widget.wallpaper.isFavorite);
-        //       }
-        //       setState(() {});
-        //     },
-        //     color: Colors.white,
-        //   ),
-        // ),
       ),
     );
   }
